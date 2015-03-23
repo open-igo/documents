@@ -1,0 +1,12 @@
+#cordova環境構築
+
+#nodeのインストール
+brew install node
+
+#iOSシミュレータのインストール
+brew install ios-sim
+
+#antのインストール
+brew install ant
+
+＃android-sdkのインストール
