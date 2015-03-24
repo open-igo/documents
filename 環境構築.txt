@@ -10,3 +10,4 @@ brew install ios-sim
 brew install ant
 
 ＃android-sdkのインストール
+brew install android-sdk
