@@ -1,0 +1,21 @@
+＃プロジェクト作成
+cordova create hello com.example.hello HelloWorld -d
+cd ./hello/
+
+#iosのプロジェクト作成
+cordova platform add ios
+
+#androidのプロジェクト作成
+cordova platform add android
+
+#iOSシミュレータ起動
+cordova emulate ios -d
+
+#android SDKなどをインストールする
+/usr/local/Cellar/android-sdk/24.0.2/bin/android
+
+#androidエミュレータの作成
+/usr/local/Cellar/android-sdk/24.0.2/bin/android avd
+
+＃androidエミュレータの起動
+cordova emulate android -d

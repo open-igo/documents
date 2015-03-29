@@ -11,3 +11,6 @@ brew install ant
 
 ＃android-sdkのインストール
 brew install android-sdk
+
+#cordovaのインストール
+sudo npm install cordova -g
